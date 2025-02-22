@@ -4,7 +4,7 @@ This is a Spotify Clone that replicates the core functionalities of Spotify, all
 
 🔗 Project Link
 
-<a href="">Live Demo</a>
+<a href="https://spotify-ak.netlify.app/">Live Demo</a>
 
 🚀 Features
 
