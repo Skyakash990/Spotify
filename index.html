@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify UI</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="left-container">
+                <img src="./Assets/Spotify logo.png" alt="logo">
+                <div class="group1">
+                    <div class="home">
+                        <div class="image">
+                            <img src="./Assets/fi-ss-home.png">
+                        </div>
+                        <div class="text">
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <img src="./Assets/search png.png" alt>
+                        <p>Search</p>
+                    </div>
+                    <div class="lib">
+                        <img src="./Assets/library.png">
+                        <p>Library</p>
+                    </div>
+                </div>
+                <!-- Left Options Middle -->
+                <div class="middle-op-container">
+                    <div class="plus-container">
+                        <img src="./Assets/fi-ss-plus-small.png" alt>
+                        <p><a style="text-decoration: none; color: #ffffff;" href="./page2.html">Create Playlist</a></p>
+                    </div>
+                    <div class="heart-container">
+                        <img src="./Assets/fi-ss-heart.png" alt>
+                        <p>Liked Songs</p>
+                    </div>
+                    <div class="podcast-container">
+                        <img src="./Assets/gg_media-podcast.png" alt>
+                        <p>Your Episodes</p>
+                    </div>
+                </div>
+                <!-- Playlist -->
+                <div class="play-list">
+                    <p id="fav">FAV</p>
+                    <p id="daily">Daily Mix 1</p>
+                    <p id="disc">Discover Weekly</p>
+                    <p id="mal">Malayalam</p>
+                    <p id="dan">Dance/Electronix Mix</p>
+                    <p id="edm">EDM/Popular</p>
+                </div>
+                <div class="install-container">
+                    <img src="./Assets/grommet-icons_install-option.png" alt>
+                    <button>Install App</button>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="footer-container">
+                <div class="album">
+                    <img src="./Assets/album bottom.jpeg" alt>
+                    <p id="dreaming">Dreaming On</p>
+                    <p id="nefex">NEFFEX</p>
+                    <img id="heartg" src="./Assets/heart green.png" alt>
+                </div>
+                <div class="player-options">
+                    <img id="raphael_shuffle" src="./Assets/player icons/raphael_shuffle.png" alt="">
+                    <div class="prev-container">
+                        <img id="skip-prev" src="./Assets/player icons/bx_bx-skip-previous.png" alt="">
+                    </div>
+                    <div class="play-container">
+                        <img id="play-btn" src="./Assets/player icons/gridicons_play.png" alt="">
+                    </div>
+                    <div class="next-container">
+                        <img id="skip-next" src="./Assets/player icons/bx_bx-skip-previous.png" alt="">
+                    </div>
+                    <div class="repeat-container">
+                        <img id="repeat" src="./Assets/player icons/fluent_arrow-repeat-all-20-regular.png" alt="">
+                    </div>
+                    <div class="progress-container">
+                        <p id="first">2:11</p>
+                        <p id="last">2:11</p>
+                    </div>
+                    <div class="pbar1">
+                    </div>
+                    <div class="pbar2">
+                    </div>
+                </div>
+                <div class="right-options">
+                    <div class="microphone-container">
+                        <img src="./Assets/player option right/ph_microphone-stage.png" alt="">
+                    </div>
+                    <div class="queryque-container">
+                        <img src="./Assets/player option right/carbon_query-queue.png" alt="">
+                    </div>
+                    <div class="laptop-container">
+                        <img src="./Assets/player option right/carbon_laptop.png" alt="">
+                    </div>
+                    <div class="speaker-container">
+                        <img src="./Assets/player option right/fluent_speaker-2-24-regular.png" alt="">
+                    </div>
+                    <div class="line-container">
+                    </div>
+                    <div class="arrow-diagonal-container">
+                        <img src="./Assets/player option right/tabler_arrows-diagonal.png" alt="">
+                    </div>
+                </div>
+                <div class="listening-devices">
+                    <div class="foot-green">
+                    </div>
+                </div>
+            </div>
+            <div class="arrows-top-left">
+                <button class="circle">
+                    <img id="left-arr" src="./Assets/fi-rr-angle-small-left.png"
+                        alt>
+                </button>
+                <button class="circle">
+                    <img id="right-arr"
+                        src="./Assets/fi-rr-angle-small-right.png" alt>
+                </button>
+            </div>
+            <div class="user">
+                <div class="user-container">
+                    <img src="./Assets/user-img.png" alt>
+                    <button>Angel</button>
+                    <div class="caret-container">
+                        <img src="./Assets/caret-down.png">
+                    </div>
+                </div>
+            </div>
+            <!-- Title & Playlist Section -->
+            <section class="title-playlist">
+                <p>Good morning</p>
+                <div id="pl1" class="title-playlist-container">
+                    <div class="heart-container">
+                        <img src="./Assets/fi-ss-heart.png" alt>
+                    </div>
+                    <p>Liked Songs</p>
+                </div>
+                <div id="pl2" class="title-playlist-container">
+                    <div class="plimg2-container">
+                        <img src="./Assets/plimg2.jpeg" alt>
+                    </div>
+                    <p>Neffex Playlist</p>
+                </div>
+                <div id="pl3" class="title-playlist-container">
+                    <div class="plimg3-container">
+                        <img src="./Assets/plimg3.jpeg" alt>
+                    </div>
+                    <p>K/ DA</p>
+                </div>
+                <div id="pl4" class="title-playlist-container">
+                    <div class="plimg4-container">
+                        <img src="./Assets/plimg4.jpeg" alt>
+                        <p>Dance / Electronic Mix</p>
+                    </div>
+                    <p>Dance / Electronic Mix</p>
+                </div>
+            </section>
+            <p id="seeall">SEE ALL</p>
+            <!-- HOME SECTION  -->
+            <section class="home">
+                <p>Shows you might like</p>
+                <div class="artist-container">
+                    <img src="./Assets/Artist 1.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist2" class="artist-container">
+                    <img src="./Assets/Artist 2.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist3" class="artist-container">
+                    <img src="./Assets/Artist 3.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist4" class="artist-container">
+                    <img src="./Assets/Artist 4.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist5" class="artist-container">
+                    <img src="./Assets/Artist 4.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist6" class="artist-container">
+                    <img src="./Assets/Artist 4.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist7" class="artist-container">
+                    <img src="./Assets/Artist 4.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+                <div id="artist8" class="artist-container">
+                    <img src="./Assets/Artist 4.png" alt>
+                    <p id="show-title">Weekly Motivatio<span>...</span></p>
+                    <p id="show-speaker">Ben Ina Scott</p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

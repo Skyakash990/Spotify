@@ -1,0 +1,985 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1728px;
+    height: 1116.6px;
+    position: absolute;
+    top: -6px;
+    left: 0px;
+    border: 1px solid #0000;
+    background: linear-gradient(180deg,#222222,#1F1F1F,#171717,#161616,#151515,#131313,#121212,#121212,#121212,#121212,#121212 0%);
+}
+.left-container{
+    width: 371.8px;
+    height: 982px;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 1px;
+    background-color: #000000;
+}
+.left-container img{
+    width: 202.58px;
+    height: 60.53px;
+    top: 39.29px;
+    left: 35.82px;
+    position: absolute;
+}
+.group1{
+    width: 347.1px;
+    height: 170.46px;
+    top: 138.11px;
+    left: 12.35px;
+    color: #fff;
+    /* position: absolute; */
+}
+.group1 .home{
+    width: 347.1px;
+    height: 61.76px;
+    display: flex;
+    overflow-y: hidden;
+    position: absolute;
+    top: 138.11px;
+    left: 12.35px;
+    border-radius: 6px;
+    background-color: #282828;
+}
+.group1 .home img{
+    width: 29.65px;
+    height: 32.12px;
+    top: 15px;
+    left: 40.76px;
+    position: absolute;
+}
+.group1 .home .text p{
+    width: 63px;
+    height: 30.88px;
+    top: 15.93px;
+    left: 98.82px;
+    position: absolute;
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    color: #FFFFFF;
+}
+.group1 .search{
+    width: 130.93px;
+    /* display: flex; */
+    height: 0px;
+    top: 214.69px;
+    left: 40.76px;
+    position: absolute;
+}
+.group1 .search img{
+    width:29.65px ;
+    height: 29.65px;
+    top: 0px;
+    left: 10px;
+    position: absolute;
+}
+.group1 .search p{
+    width: 72.88px;
+    height: 30.88px;
+    top: 0px;
+    left: 70.82px;
+    position: absolute;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    color: #FFFFFF;
+}
+.group1 .lib{
+    width: 179.11px;
+    height: 32.12px;
+    top: 276.45px;
+    left: 42px;
+    position: absolute;
+}
+.group1 .lib img{
+    width: 27.7px;
+    height: 28.42px;
+    top: 0;
+    left: 10px;
+    position: absolute;
+}
+.group1 .lib p{
+    width: 122.29px;
+    height: 30.88px;
+    top: 0;
+    left: 70.82px;
+    position: absolute;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+
+}
+.middle-op-container{
+    width: 209.99px;
+    height: 160.58px;
+    top: 372.8px;
+    left: 37.06px;
+    position: absolute;
+}
+.middle-op-container .plus-container{
+    width: 37.06px;
+    height: 37.06px;
+    top: 0px;
+    left:10px;
+    border-radius: 1px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+.middle-op-container .plus-container img{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    /* position: absolute; */
+    color: #000000;
+}
+.middle-op-container .plus-container p{
+    width: 148.23px;
+    height: 30.88px;
+    top: 5px;
+    left: 65px;
+    position: absolute;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    color: #fff;
+}
+.middle-op-container .heart-container{
+    width: 37.06px;
+    height: 37.06px;
+    top: 70px;
+    left: 10.06px;
+    position: absolute;
+    border-radius: 1px;
+    background: linear-gradient(127deg,#4000F4,#603AED,#7C6EE6,#979FE1,#A2B3DE,#ADC8DC,#C0ECD7);
+}
+.middle-op-container .heart-container img{
+    width: 10.75px;
+    height: 10.03px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #FFFFFF;
+}
+.middle-op-container .heart-container p{
+    width: 123.52px;
+    height: 30.88px;
+    top: 0px;
+    left: 65px;
+    position: absolute;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    color: #FFFFFF;
+}
+.middle-op-container .podcast-container{
+    width: 37.06px;
+    height: 37.06px;
+    top: 140px;
+    left: 12.06px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #004638;
+}
+.middle-op-container .podcast-container img{
+    width: 21px;
+    height: 21px;
+    top: 7px;
+    left: 7px;
+    position: absolute;
+}
+.middle-op-container .podcast-container p{
+    width: 145.76px;
+    height: 30.88px;
+    top: 0px;
+    left: 65px;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+}
+.play-list{
+    width: 213.69px;
+    height: 277.92px;
+    top: 580.32px;
+    left: 37.06px;
+    position: absolute;
+}
+.play-list #fav{
+    width: 39.53px;
+    height: 30.88px;
+    top: 0px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #daily{
+    width: 103.76px;
+    height: 30.88px;
+    top: 49px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #disc{
+    width: 165.52px;
+    height: 30.88px;
+    top: 100px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #mal{
+    width: 108.7px;
+    height: 30.88px;
+    top: 150px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #mal{
+    width: 213.69px;
+    height: 30.88px;
+    top: 150px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #dan{
+    width: 213.69px;
+    height: 30.88px;
+    top: 200px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.play-list #edm{
+    width: 144.52px;
+    height: 30.88px;
+    top: 250px;
+    left: 9px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.install-container{
+    width: 170.46px;
+    height: 30.88px;
+    top: 936.06px;
+    left: 37.06px;
+    position: absolute;
+}
+.install-container img{
+    width: 29.65px;
+    height: 29.65px;
+    top: 0px;
+    left: 10px;
+    position: absolute;
+}
+.install-container button{
+    width: 108px;
+    height: 30.88px;
+    top: 0px;
+    left:60px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    background: none;
+    font-size: 19px;
+    border: none;
+    line-height: 24.74px;
+    position: absolute;
+    color: #FFFFFF;
+}
+.footer-container{
+    width: 1728px;
+    height: 112px;
+    top: 985px;
+    z-index: 99;
+    position: absolute;
+    background-color: #282828;
+}
+.footer-container .album{
+    width: 224.88px;
+    height: 70px;
+    top: 20px;
+    left: 17.09px;
+    position: absolute;
+}
+.footer-container .album img{
+    width: 62.97px;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.footer-container .album #dreaming{
+    width: 109px;
+    height: 19px;
+    top: 17px;
+    left: 97.15px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+.footer-container .album #nefex{
+    width: 109px;
+    height: 19px;
+    top: 39px;
+    left: 96.25px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#B3B3B3;
+}
+.footer-container .album #heartg{
+    width: 21.59px;
+    height: 24px;
+    top: 22px;
+    left: 220.39px;
+    position: absolute;
+}
+.player-options{
+    width: 704px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 512px;
+}
+.player-options #raphael_shuffle{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    left: 236px;
+}
+.player-options .prev-container{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 14px;
+    left: 283px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.player-options .prev-container #skip-prev{
+    width: 100%;
+    height: 100%;
+    top: -2px;
+    font-size: 30px;
+    left: 10px;
+    gap: 0px;
+    position: absolute;
+    opacity: 0px;
+    color: #C4C4C4;
+    rotate: 180deg;
+}
+
+.player-options .play-container{
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    top: 0px;
+    left: 326px;
+}
+.player-options .next-container{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 14px;
+    left: -33px;
+    
+    gap: 0px;
+    opacity: 0px;
+}
+.player-options .repeat-container{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 15px;
+    left: 437px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-container .right-options{
+    width: 270.76px;
+    height: 32px;
+    position: absolute;
+    top: 38px;
+    left: 1431.15px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-container .right-options .microphone-container{
+    width: 17.19px;
+    height: 18.91px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    rotate: 13.85deg;
+
+}
+.footer-container .right-options .queryque-container{
+    width: 28.79px;
+    height: 32px;
+    position: absolute;
+    top: -10px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-container .right-options .laptop-container{
+    width: 21.59px;
+    height: 24px;
+    position: absolute;
+    top: -4px;
+    left: 75.12px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-container .right-options .laptop-container img{
+    height: 100%;
+    width: 100%;
+}
+.footer-container .right-options .speaker-container{
+    width: 21.59px;
+    height: 24px;
+    position: absolute;
+    top: -4px;
+    left: 110px;
+    gap: 0px;
+    opacity: 0px;
+}
+.footer-container .right-options .speaker-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-container .right-options .microphone-container img{
+   width: 100%;
+   height: 100%;
+}
+.footer-container .right-options .line-container{
+    width: 104.35px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    gap: 0px;
+    border-radius: 2.5px;
+    opacity: 0px;
+    background-color: #C4C4C4;
+}
+.footer-container .right-options .arrow-diagonal-container{
+    width: 21.59px;
+    height: 24px;
+    position: absolute;
+    top: -4px;
+    left: 260px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.footer-container .progress-container p{
+    width: 31px;
+    height: 19px;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.23px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #C4C4C4;
+}
+.footer-container .progress-container #last{
+    width: 31px;
+    height: 19px;
+    position: absolute;
+    top: 51px;
+    left: 650px;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.23px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #C4C4C4;
+}
+.footer-container .pbar1{
+    width: 511px;
+    height: 5px;
+    position: absolute;
+    top: 58px;
+    left: 30px;
+    border-radius: 2.5px;
+    background-color: #C4C4C4;
+    z-index: 99;
+}
+.footer-container .pbar2{
+    width: 511px;
+    height: 5px;
+    position: absolute;
+    top: 58px;
+    left: 121px;
+    border-radius: 2.5px;
+    background-color:#535353;
+}
+.player-options .next-container #skip-next{
+    width: 31px;
+    height: 31px;
+    left: 925px;
+    gap: 0px;
+    opacity: 0px;
+    top: -2px;
+    position: absolute;
+    left: 413px;
+    gap: 0px;
+    opacity: 0px;
+    color: #C4C4C4;
+}
+
+.listening-devices{
+    width: 1728px;
+    height: 41px;
+    position: absolute;
+    top: 93px;
+}
+.listening-devices .foot-green{
+    width: 1728px;
+    height: 30px;
+    top: 0px;
+    position: absolute;
+    background-color: #1ED760;
+}
+
+.arrows-top-left{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 381px;
+}
+.arrows-top-left .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #2a2929;
+}
+.arrows-top-left .circle #left-arr{
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 6px;
+    position: absolute;
+}
+.arrows-top-left .circle #right-arr{
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 52px;
+    position: absolute;
+}
+.user{
+    width: 147px;
+    height: 41px;
+    position: absolute;
+    top: 16px;
+    left: 1561px;   
+}
+.user .user-container{
+    width: 147px;
+    height: 41px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 33px;
+    background-color: #0A0A0A;
+}
+.user .user-container img{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 33px;
+}
+.user .user-container button{
+    width: 75px;
+    height: 31px;
+    position: absolute;
+    top: 4px;
+    left:35px;
+    background: none;
+    border:none;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.04px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.user .user-container .caret-container{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 24px;
+    left: 69px;
+}
+.user .user-container .caret-container img{
+    width: 12.25px;
+    height: 6.59px;
+    position: absolute;
+    top: -7px;
+    left: 44.38px;
+}
+.title-playlist p{
+    width: 280px;
+    height: 56px;
+    position: absolute;
+    top: 112px;
+    left: 419px;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.title-playlist .title-playlist-container{
+    width: 362px;
+    height: 100px;
+    background-color: #303030;
+    position: absolute;
+    top: 186px;
+    left: 419px;
+    border-radius: 4px;
+}
+.title-playlist .title-playlist-container .heart-container{
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 4px 0px 0px 4px;
+    background: linear-gradient(-220deg,#4000F4,#603AED,#7C6EE6,#979FE1,#A2B3DE,#ADC8DC,#C0ECD7);
+}
+.title-playlist .title-playlist-container .heart-container img{
+    width: 29px;
+    height: 29px;
+    top: 35px;
+    left: 35px;
+    position: absolute;
+    gap: 0px;
+}
+.title-playlist .title-playlist-container p{
+    width: 120px;
+    height: 26px;
+    top: 35px;
+    left: 135px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.04px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+.title-playlist #pl2{
+    position: absolute;
+    left: 811px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl2 .plimg2-container img{
+    width: 99.72px;
+    height: 101px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl2 p{
+    width: 144px;
+    height: 26px;
+    top:40px;
+    left: 120px;
+    position: absolute;
+}
+.title-playlist #pl3{
+    position: absolute;
+    left: 1203px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl3 .plimg3-container img{
+    width: 99.72px;
+    height: 101px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl3 p{
+    width: 144px;
+    height: 26px;
+    top:40px;
+    left: 120px;
+    position: absolute;
+}
+.title-playlist #pl4{
+    position: absolute;
+    top: 306px;
+    left: 419px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl4 .plimg4-container img{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+.title-playlist #pl4 p{
+    width: 181px;
+    height: 26px;
+    top:25px;
+    left:120px;
+    position: absolute;
+}
+.title-playlist #pl4 .plimg4-container p{
+    width: 75.31px;
+    height: 14px;
+    top:80px ;
+    left: 15px;
+    position: absolute;
+    font-family: DM Sans;
+    font-size: 8.32px;
+    font-weight: 700;
+    line-height: 7px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+}
+/* SHOWS MAY YOU LIKE CSS */
+.home{
+    width: 1103.07px;
+    height: 664px;
+    position: absolute;
+    top: 438px;
+    overflow-y: scroll;
+    left: 419px;
+}
+.home p{
+    width:304.6px;
+    height: 60.96px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    font-family: "DM Sans";
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 37.76px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+}
+#seeall{
+    width: 80px;
+    height: 22px;
+    top: 445px;
+    left: 1611px;
+    position: absolute;
+    font-family: "DM Sans";
+    color: #B3B3B3;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+}
+.home .artist-container{
+    width: 251.29px;
+    height: 313.52px;
+    position: absolute;
+    top:68.58px;
+    left: 0px;
+    background-color: #181818;
+}
+.home .artist-container img{
+    width: 207.78px;
+    height: 207.93px;
+    position: absolute;
+    top: 22px;
+    left: 21px;
+    border-radius: 14px;
+}
+.home .artist-container #show-title{
+    width: 211.04px;
+    height: 27.22px;
+    position: absolute;
+    top: 258px;
+    left: 21.76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "DM Sans";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 27.34px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;    
+}
+.home .artist-container #show-title span{
+    font-family:" DM Sans";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 27.34px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.home .artist-container #show-speaker{
+    width: 211.04px;
+    height: 27.22px;
+    position: absolute;
+    top: 292px;
+    left: 21.76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:"DM Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19.53px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #B3B3B3;
+}
+.home #artist2{
+    left: 283px;
+    position: absolute;
+}
+.home #artist3{
+    left: 567.85px;
+    position: absolute;
+}
+.home #artist4{
+    left: 851.78px;
+    position: absolute;
+}
+.home #artist5{
+    height: 250px;
+    position: absolute;
+    top: 419px;
+    z-index: 1;
+    left: 0px;
+    overflow: hidden;
+}
+.home #artist6{
+    height: 250px;
+    position: absolute;
+    top:419px;
+    z-index: 1;
+    left:282px;
+    overflow: hidden;
+}
+.home #artist7{
+    height: 250px;
+    position: absolute;
+    top:419px;
+    z-index: 1;
+    left:564px;
+    overflow: hidden;
+}
+.home #artist8{
+    height: 250px;
+    position: absolute;
+    top:419px;
+    z-index: 1;
+    left:855px;
+    overflow: hidden;
+}
+
+
+
